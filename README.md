@@ -1,6 +1,9 @@
 # MLPerf Storage benchmark sample submission
 
-## What to submit - CLOSED submissions
+Refer [Benchmark rules document](https://docs.google.com/document/d/1QOaCLiWb82H9cwdVX5KyeDZWt0781y4SgMQPhoij-b4/edit) for more details
+
+
+## CLOSED submissions
 A complete submission for one benchmark (3D-Unet and/or BERT) contains 3 folders:
  
 #### results folder containing (for each system):
@@ -19,6 +22,7 @@ For system naming examples look [here](https://github.com/mlcommons/inference_re
 ### code folder containing:
 Source code of the [MLPerf Storage benchmark](https://github.com/mlcommons/storage/tree/v0.5-branch). 
 
-## What to submit - OPEN submissions
+## OPEN submissions
 Everything that is required for a CLOSED submission, following the same structure.
 Additional source code used for the OPEN Submission benchmark implementations must be available under a license that permits MLCommons to use the implementation for benchmarking. 
+
