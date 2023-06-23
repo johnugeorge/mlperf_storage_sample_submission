@@ -1,0 +1,37 @@
+{
+   "host_node":{
+      "node_count":2,
+      "OS_version":"Ubuntu22.04",
+      "memory_capacity_gigabytes":128,
+      "cpu_core_count":36,
+      "cpu_socket_count":2,
+      "cpu_frequency_gigahertz":3,
+      "cpu_model":"XeonE5-2680"
+   },
+   "storage_system":{
+      "category":"commercial",
+      "software_specification":"Lustre 2.12",
+      "type":"Lustre",
+      "total_read_bandwidth_sequential_GB_per_sec":650,
+      "total_write_bandwidth_sequential_GB_per_sec":650,
+      "total_storage_capacity_TB":16,
+      "hardware":[
+         {
+            "Count":4,
+            "Vendor":"Dell",
+            "type":"SSD",
+            "Model":"NX8170G8",
+            "protocol":"NVMe",
+            "Disk_capacity_gigabytes":1000
+         }
+      ]
+   },
+   "host_to_storage_interconnect":[
+      {
+         "interconnect_type":"InfiniBand",
+         "model":"NVIDIA-spectrum-3-SN400",
+         "link_speed_gigabits_per_second":400,
+         "rdma_enabled":"yes"
+      }
+   ]
+}
